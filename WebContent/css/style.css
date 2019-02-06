@@ -50,6 +50,7 @@ table, tr, th, td {
 table {
     width: 100%;
     table-layout: fixed;
+    word-break: break-all;
 }
 
 th {
@@ -152,4 +153,9 @@ table#report_list .report_action {
 }
 pre {
     font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+    white-space: pre-wrap ;
+    word-break: break-all;
+}
+h3 {
+    font-size: larger;
 }
